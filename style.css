@@ -1,0 +1,93 @@
+body {
+    margin: 0 auto;
+    /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 1.0em;
+}
+
+.header {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    height: 5vh;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    margin-left: 10px;
+}
+
+.middle-container {
+    background-color: rgb(128, 176, 228);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icon-citation {
+    font-size: 0.8em;
+    color: rgb(40, 40, 40);
+}
+
+/* SEARCH SECTION */
+.cover {
+    float: left;
+}
+
+#icon {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#name-above-search {
+    font-weight: bold;
+    font-size: 2.0em;
+    line-height: 1.3em;
+    width: 400px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #6c6c6c;
+}
+
+#state {
+    font-size: 0.95em;
+    font-style: italic;
+    width: 450px;
+}
+
+#search-country-state {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name-country-state {
+    font-weight: bold;
+}
+
+#search {
+    /* margin-left: 30vh; */
+    padding: 12px;
+    width: 250px;
+    border: none;
+}
+
+#submit {
+    margin-left: 15px;
+    background-color: rgb(88, 141, 197);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}

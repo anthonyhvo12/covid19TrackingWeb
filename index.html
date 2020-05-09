@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Covid-19 Info By Location</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="header">
+        <p id="title">Elly Do and Anthony Vo's Web App</p>
+    </div> <!-- header -->
+
+    <div class="middle-container">
+        <img id="icon" src="https://image.flaticon.com/icons/svg/2877/2877527.svg" width="125" height="125" alt="icon">
+        <p id="icon-citation">Icon made by Pixelmeetup from www.flaticon.com</p>
+        <div class="search-section">
+            <p id="name-above-search">Covid-19 Information by Country or US State</p>
+            <div id="search-country-state">
+                <input id="search" type="text" placeholder="Enter Country or State Name (In Full)">
+                <button id="submit" type="button" onclick="processInput()" />Submit</button>
+            </div>
+            <p id="add-new-info"></p>
+        </div>
+    </div> <!-- search section -->
+
+    <div class="footer">
+        <p id="api-citation">Data from <a href="https://covid19api.com">COVID19API</a> and <a
+                href="https://covidtracking.com">The Covid Tracking Project</a></p>
+    </div> <!-- footer -->
+
+    <script src="covidinfo_app.js"></script>
+</body>
+
+</html>
